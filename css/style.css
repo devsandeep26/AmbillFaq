@@ -187,7 +187,6 @@ body {
 }
 
 .set>a.active {
-    background-color: #3399cc;
     color: #fff;
 }
 
@@ -204,14 +203,22 @@ body {
     background-color: #E8F0FE;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+.set:hover {
+    background-color: #efefef;
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
     .search-container {
         background: none;
         height: 12.065rem;
     }
 
     .search_bar {
-        width: 20.5rem;
+        width: 17.5rem;
+    }
+
+    .search_greeting {
+        font-size: 1.5rem;
     }
 }
 
