@@ -203,7 +203,7 @@ body {
     background-color: #E8F0FE;
 }
 
-.set:hover {
+.set:not(.active):hover {
     background-color: #efefef;
 }
 
