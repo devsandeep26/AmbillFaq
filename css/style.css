@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    padding: 0 5% 0 5%;
+    /* justify-content: space-between; */
+}
+
+.search-container {
+    background: url('../images/homepage_header_background.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 19.0625rem;
+    margin-top: 1.5rem;
+}
+
+.search_greeting {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.625rem;
+    padding: 0;
+    color: #1967d2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.search_greeting_logo_container {
+    height: 3.5rem;
+    margin: 0 auto 1.125rem auto;
+    padding: .5rem;
+    width: 3.5rem;
+    border-radius: 1.75rem;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.search_greeting_logo_container .img-responsive {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.search_bar {
+    margin: 0 auto;
+    padding: 0 0 2.5rem;
+    width: 32.5rem;
+    position: relative;
+}
+
+.search_bar_input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    box-sizing: border-box;
+    color: #202124;
+    display: block;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 2.5rem 0 4.5rem;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+.search_button_img {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 1rem;
+    padding: 0;
+    position: absolute;
+    top: 1rem;
+    width: 1rem;
+    left: 1rem;
+    fill: #3c4043;
+}
+
+.relative {
+    position: relative;
+}
+
+.primary_container {
+    max-width: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.accordion_container {
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 75.125rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.page {
+    background: transparent;
+    box-shadow: none;
+    box-sizing: border-box;
+    /* padding: 1.5rem 1rem; */
+    text-align: left;
+    width: 100%;
+    border: thin solid #dadce0;
+    border-radius: .5rem;
+    margin: 2.625rem 0 0;
+}
+
+.main_container,
+.page {
+    max-width: 52rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.accordion_homepage .parent:first-child,
+.accordion_homepage .parent:first-child>h2 {
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;
+}
+
+.accordion_homepage .parent:first-child {
+    border: none;
+}
+
+.accordion_homepage .parent {
+    background: #ffffff;
+    border-top: thin solid #dadce0;
+    padding: 0;
+}
+
+.accordion_homepage .parent h2 {
+    outline: none;
+    position: relative;
+}
+
+.accordion_homepage h2 {
+    background-color: #ffffff;
+    color: #202124;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 0;
+    padding: .875rem 3.25rem .875rem 1.75rem;
+}
+
+.accordion_homepage .parent h2 svg {
+    fill: #1a73e8;
+    height: 1.25rem;
+    position: absolute;
+    right: 1.75rem;
+    top: calc(50% - .625rem);
+    width: 1.25rem;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.set>a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.set>a i {
+    float: right;
+    margin-top: 2px;
+}
+
+.set>a.active {
+    background-color: #3399cc;
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    display: none;
+}
+
+.content p {
+    padding: 10px 15px;
+    margin: 0;
+    color: #333;
+    background-color: #E8F0FE;
+}
+
+@media (min-width: 48.1875rem) {
+    .accordion_homepage h2 {
+        font-size: .875rem;
+        padding: 1rem 3.25rem 1rem 4rem;
+    }
+}
