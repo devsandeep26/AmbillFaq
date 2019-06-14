@@ -204,6 +204,17 @@ body {
     background-color: #E8F0FE;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    .search-container {
+        background: none;
+        height: 12.065rem;
+    }
+
+    .search_bar {
+        width: 20.5rem;
+    }
+}
+
 @media (min-width: 48.1875rem) {
     .accordion_homepage h2 {
         font-size: .875rem;
