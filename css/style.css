@@ -180,9 +180,11 @@ body {
     -moz-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
+
 .set a:hover {
     background: #d2e3fc
 }
+
 .set>a i {
     float: right;
     margin-top: 2px;
@@ -386,6 +388,45 @@ h4 {
     max-width: 52rem;
     padding: 2rem 2rem 2.625rem;
     width: 100%;
+}
+
+.context-selector-tabs {
+    border-bottom: .0625rem solid #dadce0;
+    height: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.context-selector-tabs-container {
+    height: 3rem;
+    margin: 0;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.context-selector-tabs a {
+    border-left: .1875rem solid transparent;
+    border-right: .1875rem solid transparent;
+    color: #5f6368;
+    font-family: 'Google Sans', Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.context-selector-tabs .context-selector-selected,
+.context-selector-tabs .context-selector-selected:visited {
+    border-bottom: .1875rem solid #1a73e8;
+    color: #1a73e8;
+}
+
+.context-selector-tab {
+    border-bottom: .0625rem solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 2.875rem;
+    line-height: 2.9375rem;
+    padding: 0 .625rem;
+    white-space: nowrap;
 }
 
 @media (min-width: 61rem) {
