@@ -1,0 +1,18 @@
+1)Intro
+google rewritten the angular 
+it follows mvc approach 
+angular is 8 times faster than angularjs
+angular entirely different from angularjs 
+angular followed a component driven approach
+many top companies were using angular 
+2)Changes made in angular
+Support for static typing compile time checks were introduced with
+typescript 
+can make mobile and web apps and native apps
+very useful for creating complex large scale applications.
+
+3) Angular Coding
+es6 concepts and typescript basics is must
+
+
+
