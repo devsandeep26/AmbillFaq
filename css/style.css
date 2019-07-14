@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 17px;
 
 }
 
@@ -16,85 +17,96 @@ body {
  *       Fix position of mobile search button.
  */
 .mdh-expandable-search {
-  margin: 0 50px;
-  align-items: center;
-  justify-content: center;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .mdh-expandable-search form {
-  max-width: 600px;
+    max-width: 600px;
 }
 
 .mdh-expandable-search,
 .mdh-expandable-search form,
 .mdh-expandable-search input {
-  /* Cross browser flex-grow */
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+    /* Cross browser flex-grow */
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 }
 
 .mdh-expandable-search,
 .mdh-expandable-search form {
-  /* Cross browser inline-flex */
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -moz-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+    /* Cross browser inline-flex */
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
 }
 
 /* Position search icon */
 .mdh-expandable-search .material-icons {
-  position: relative;
-  right: -40px;
-  margin-left: -24px; /* Remove the blank space left behind by the icon being relatively positioned */
+    position: relative;
+    right: -40px;
+    margin-left: -24px;
+    /* Remove the blank space left behind by the icon being relatively positioned */
 }
 
 .mdh-expandable-search input {
-  outline: none;
-  border: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  background-color: #78909C;
-  padding: 0px 35px 0px 70px;
-  height: 40px;
-  line-height: 40px; /* TODO: This was recommended for cross browser compatability of input height, check if its actually needed in modern browsers */
-  
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #78909C;
+    padding: 0px 35px 0px 70px;
+    height: 40px;
+    line-height: 40px;
+    /* TODO: This was recommended for cross browser compatability of input height, check if its actually needed in modern browsers */
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
 }
 
-.mdh-expandable-search input::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #FFFFFF;
+.mdh-expandable-search input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #FFFFFF;
 }
-.mdh-expandable-search input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #FFFFFF;
-   opacity:  1; /* Firefox gives the placeholder a reduced opacity so we have to increase it */
+
+.mdh-expandable-search input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #FFFFFF;
+    opacity: 1;
+    /* Firefox gives the placeholder a reduced opacity so we have to increase it */
 }
-.mdh-expandable-search input::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #FFFFFF;
-   opacity:  1; /* Firefox gives the placeholder a reduced opacity so we have to increase it */
+
+.mdh-expandable-search input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #FFFFFF;
+    opacity: 1;
+    /* Firefox gives the placeholder a reduced opacity so we have to increase it */
 }
-.mdh-expandable-search input:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #FFFFFF;
+
+.mdh-expandable-search input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #FFFFFF;
 }
 
 
 /* Bug fix: https://github.com/google/material-design-lite/issues/1078
  * To much padding on the left of header when the menu button is hidden */
 @media screen and (min-width: 851px) {
-  .mdl-layout__header-row {
-    padding: 0 40px 0 40px;
-  }
+    .mdl-layout__header-row {
+        padding: 0 40px 0 40px;
+    }
 }
 
 /* Bug fix for badges being in the wrong location */
 .mdl-badge[data-badge]:after {
-  right: -7px;
-  top: -8px;
+    right: -7px;
+    top: -8px;
 }
 
 /*------//Navbar-------*/
@@ -268,6 +280,9 @@ body {
     position: relative;
     width: 100%;
     margin-top: .25rem;
+    padding: 4rem;
+    border: thin solid #dadce0;
+    border-radius: .5rem;
 }
 
 .page_help {
@@ -402,7 +417,7 @@ body {
 .main-content .page {
     background-color: #ffffff;
     box-sizing: border-box;
-    padding: 1.5rem 1rem;
+    padding: 4rem;
     text-align: left;
     width: 100%;
 }
@@ -434,11 +449,6 @@ body {
 .cc p {
     margin: .25rem 0 .75rem;
 }
-
-/* .primary-container ul {
-    outline: 0;
-    padding: 0;
-} */
 
 .primary-container .cc li::before {
     content: "\002022";
@@ -476,6 +486,48 @@ h4 {
     margin: 2rem 0 .5rem;
 }
 
+.tabbar {
+    display: block;
+    max-width: 89.125rem;
+    padding: .5rem 0 0;
+    text-align: left;
+    font-weight: 500;
+}
+
+.tabbar-internal {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 75.125rem;
+    min-height: 3rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.tabbar-helpcenter-sections {
+    align-items: center;
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+}
+
+.tabbar-helpcenter-sections__link.tabbar-helpcenter-sections--active {
+    border-bottom: .1875rem solid #1a73e8;
+    color: #1a73e8;
+}
+
+a.tabbar-helpcenter-sections__link {
+    border-left: .1875rem solid transparent;
+    border-right: .1875rem solid transparent;
+    box-sizing: border-box;
+    color: #5f6368;
+    display: inline-block;
+    flex-grow: 4;
+    font-size: .875rem;
+    line-height: 1.875rem;
+    padding: .125rem .5rem 0;
+    text-align: center;
+}
+
 @media (min-width:37.5625rem) {
     .portal li {
         width: calc(100%/3 - .5rem);
@@ -489,10 +541,10 @@ h4 {
 }
 
 @media (min-width:48.475rem) {
-    .primary-container {
+    /* .primary-container {
         max-width: none;
         text-align: center;
-    }
+    } */
 
     .page-width-container {
         box-sizing: border-box;
@@ -572,6 +624,25 @@ h4 {
         margin: .5rem 0;
         min-height: 0;
         padding: 0;
+    }
+
+    .tabbar-helpcenter-sections {
+        display: block;
+        flex: 50%;
+    }
+
+    a.appbar-helpcenter-sections__link {
+        line-height: 2.75rem;
+        margin: 0 .5rem 0 0;
+        max-width: none;
+        width: auto;
+    }
+
+    a.appbar-helpcenter-sections__link {
+        line-height: 2.75rem;
+        margin: 0 .5rem 0 0;
+        max-width: none;
+        width: auto;
     }
 }
 
