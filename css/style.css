@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: .875rem;
 
 }
 
@@ -274,14 +274,13 @@ body {
     width: 100%;
 }
 
-.main_container,
+.main_container
 .page {
     display: inline-block;
     position: relative;
     width: 100%;
     margin-top: .25rem;
-    padding: 4rem;
-    border: thin solid #dadce0;
+    padding: 1.25rem 1rem;
     border-radius: .5rem;
 }
 
@@ -588,6 +587,7 @@ a.tabbar-helpcenter-sections__link {
 
     .page {
         margin: 2.625rem;
+        padding: 4rem;
     }
 
     .portal {
