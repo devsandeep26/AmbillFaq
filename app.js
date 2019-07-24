@@ -6,8 +6,10 @@ $(document).ready(function () {
                 .siblings(".content")
                 .slideUp(200);
             $(".set > a i")
-                .removeClass("fa-angle-down")
                 .addClass("fa-angle-up");
+                $(".set > a i")
+                .removeClass('fa-angle-up')
+                .addClass('fa-angle-down')
         } else {
             $(".set > a i")
                 .removeClass("fa-angle-up")

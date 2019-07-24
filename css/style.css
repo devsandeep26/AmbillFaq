@@ -269,19 +269,24 @@ body {
 .accordion_container {
     box-sizing: border-box;
     margin: 0;
-    max-width: 75.125rem;
+    max-width: 60rem;
     padding: 0 1rem;
     width: 100%;
 }
 
-.main_container
-.page {
+.main_container .page {
     display: inline-block;
     position: relative;
     width: 100%;
     margin-top: .25rem;
     padding: 1.25rem 1rem;
     border-radius: .5rem;
+}
+
+.page_border {
+    border: thin solid #dadce0;
+    border-radius: .5rem;
+    box-sizing: border-box
 }
 
 .page_help {
@@ -343,9 +348,9 @@ body {
 
 .set>a {
     display: block;
-    padding: 10px 15px;
+    padding: .625rem 4rem;
     text-decoration: none;
-    color: #555;
+    color: #202123 !important;
     font-weight: 600;
     border-bottom: 1px solid #ddd;
     -webkit-transition: all 0.2s linear;
@@ -367,6 +372,10 @@ body {
 } */
 .set .content {
     background: #e8f0fe !important;
+}
+
+.set .content a {
+    color: #3c4043 !important;
 }
 
 .content {
@@ -424,7 +433,7 @@ body {
 .page_help {
     background-color: #ffffff;
     box-sizing: border-box;
-    padding: 1.5rem 1rem;
+    /* padding: 1.5rem 1rem; */
     text-align: left;
     width: 100%;
     border: thin solid #dadce0;
