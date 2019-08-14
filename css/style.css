@@ -19,7 +19,7 @@ body {
 .mdh-expandable-search {
     margin: 0 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .mdh-expandable-search form {
@@ -58,8 +58,8 @@ body {
     outline: none;
     border: none;
     font-size: 16px;
-    color: #FFFFFF;
-    background-color: #78909C;
+    color: grey;
+    background: transparent;
     padding: 0px 35px 0px 70px;
     height: 40px;
     line-height: 40px;
@@ -72,26 +72,26 @@ body {
 
 .mdh-expandable-search input::-webkit-input-placeholder {
     /* WebKit browsers */
-    color: #FFFFFF;
+    color: grey;
 }
 
 .mdh-expandable-search input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #FFFFFF;
+    color: grey;
     opacity: 1;
     /* Firefox gives the placeholder a reduced opacity so we have to increase it */
 }
 
 .mdh-expandable-search input::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #FFFFFF;
+    color: grey;
     opacity: 1;
     /* Firefox gives the placeholder a reduced opacity so we have to increase it */
 }
 
 .mdh-expandable-search input:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #FFFFFF;
+    color: grey;
 }
 
 
@@ -107,6 +107,20 @@ body {
 .mdl-badge[data-badge]:after {
     right: -7px;
     top: -8px;
+}
+
+.mdl-layout__header {
+    color: grey !important;
+    background: #ffffff !important;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+    color: grey !important;
+}
+
+.form_navbar {
+    background: #f1f3f4 !important;
+    border-radius: 8px !important;
 }
 
 /*------//Navbar-------*/

@@ -13,19 +13,18 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layoutఇ
-        mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <!-- Header -->
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
 
-                <span class="mdl-layout-title">Ambill Support</span>
+                <span class="mdl-layout-title" style="margin-left: 30px;">Ambill Support</span>
 
                 <!-- Displayed on Computer and Tablet -->
                 <!-- Search -->
                 <div class="mdh-expandable-search mdl-cell--hide-phone">
                     <i class="material-icons">search</i>
-                    <form action="#">
+                    <form action="#" class="form_navbar">
                         <input type="text" placeholder="Search" size="1">
                     </form>
                 </div>
@@ -37,118 +36,132 @@
                     class="mdh-toggle-search mdl-button mdl-js-button mdl-button--icon mdl-cell--hide-tablet mdl-cell--hide-desktop">
                     <i class="material-icons">search</i>
                 </button>
-
-                <!-- Buttons -->
-
             </div>
         </header>
-        <div class="primary-container">
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!-- Your content goes here -->
+                <div class="primary-container">
 
-            <div class="page-width-container">
-                <div class="main-content">
-                    <article class="page page_border">
-                        <section class="article-container">
-                            <h1>FAQ Heading</h1>
-                            <div class="cc">
-                                <p>Tez is now Google Pay. You'll receive a notification to update the app to the latest
-                                    version. Your account and transactions are not affected by this change.</p>
-                                <h2>
-                                    Pay using the Google Pay app
-                                </h2>
-                                <p>You can use Google Pay to do the same things that you did with Tez:</p>
-                                <ul>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                </ul>
-                                <div class="context-selector-tabs">
-                                    <div class="context-selector-tabs-container">
-                                        <a class="context-selector-tab context-selector-selected" id="t1">Android</a>
-                                        <a class="context-selector-tab" id="t2">IOS</a>
-                                        <a class="context-selector-tab" id="t3">Desktop</a>
-                                        <div id="Android">
-                                            <h2>Android faq</h2>
-                                        </div>
-                                        <div id="IOS" style="display: none">
-                                            <h2>IOS faq</h2>
-                                        </div>
-                                        <div id="Desktop" style="display: none">
-                                            <h2>Desktop faq</h2>
+                    <div class="page-width-container">
+                        <div class="main-content">
+                            <article class="page page_border">
+                                <section class="article-container">
+                                    <h1>FAQ Heading</h1>
+                                    <div class="cc">
+                                        <p>Tez is now Google Pay. You'll receive a notification to update the app to the
+                                            latest
+                                            version. Your account and transactions are not affected by this change.</p>
+                                        <h2>
+                                            Pay using the Google Pay app
+                                        </h2>
+                                        <p>You can use Google Pay to do the same things that you did with Tez:</p>
+                                        <ul>
+                                            <li>1</li>
+                                            <li>1</li>
+                                            <li>1</li>
+                                            <li>1</li>
+                                            <li>1</li>
+                                        </ul>
+                                        <div class="context-selector-tabs">
+                                            <div class="context-selector-tabs-container">
+                                                <a class="context-selector-tab context-selector-selected"
+                                                    id="t1">Android</a>
+                                                <a class="context-selector-tab" id="t2">IOS</a>
+                                                <a class="context-selector-tab" id="t3">Desktop</a>
+                                                <div id="Android">
+                                                    <h2>Android faq</h2>
+                                                </div>
+                                                <div id="IOS" style="display: none">
+                                                    <h2>IOS faq</h2>
+                                                </div>
+                                                <div id="Desktop" style="display: none">
+                                                    <h2>Desktop faq</h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </section>
-                    </article>
-                </div>
-                <div class="side-container">
-                    <div class="fixed-sidebar-container" style="left: 921px;">
-                        <div class="primary-nav">
-                            <nav>
-                                <div class="sibling-nav">
-                                    <h4>Other items</h4>
-                                    <ul class="sibling-list">
-                                        <li>
-                                            <a class="sibling-link" href="brief.html">
-                                                <svg class="article" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
-                                                    </path>
-                                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                                </svg>Another Faq</a>
-                                        </li>
-                                        <li>
-                                            <a class="sibling-link" href="brief.html">
-                                                <svg class="article" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
-                                                    </path>
-                                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                                </svg>Another Faq</a>
-                                        </li>
-                                        <li>
-                                            <a class="sibling-link" href="brief.html">
-                                                <svg class="article" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
-                                                    </path>
-                                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                                </svg>Another Faq</a>
-                                        </li>
-                                        <li>
-                                            <a class="sibling-link" href="brief.html">
-                                                <svg class="article" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
-                                                    </path>
-                                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                                </svg>Another Faq</a>
-                                        </li>
-                                        <li>
-                                            <a class="sibling-link" href="brief.html">
-                                                <svg class="article" viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
-                                                    </path>
-                                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                                </svg>Another Faq</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
+                                </section>
+                            </article>
                         </div>
+                        <div class="side-container">
+                            <div class="fixed-sidebar-container" style="left: 921px;">
+                                <div class="primary-nav">
+                                    <nav>
+                                        <div class="sibling-nav">
+                                            <h4>Other items</h4>
+                                            <ul class="sibling-list">
+                                                <li>
+                                                    <a class="sibling-link" href="brief.html">
+                                                        <svg class="article" viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
+                                                            </path>
+                                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                                        </svg>Another Faq</a>
+                                                </li>
+                                                <li>
+                                                    <a class="sibling-link" href="brief.html">
+                                                        <svg class="article" viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
+                                                            </path>
+                                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                                        </svg>Another Faq</a>
+                                                </li>
+                                                <li>
+                                                    <a class="sibling-link" href="brief.html">
+                                                        <svg class="article" viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
+                                                            </path>
+                                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                                        </svg>Another Faq</a>
+                                                </li>
+                                                <li>
+                                                    <a class="sibling-link" href="brief.html">
+                                                        <svg class="article" viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
+                                                            </path>
+                                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                                        </svg>Another Faq</a>
+                                                </li>
+                                                <li>
+                                                    <a class="sibling-link" href="brief.html">
+                                                        <svg class="article" viewBox="0 0 24 24">
+                                                            <path
+                                                                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z">
+                                                            </path>
+                                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                                        </svg>Another Faq</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
 
+                            </div>
+
+                        </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
+        </main>
+    </div>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -10,77 +10,91 @@
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.blue_grey-orange.min.css">
     <!--Fonts link-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="mdl-layout mdl-js-layout
-    mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
 
-                <span class="mdl-layout-title">Ambill Support</span>
-
+                <span class="mdl-layout-title" style="margin-left: 30px;">Ambill Support</span>
             </div>
         </header>
-        <div class="container">
-            <div class="search-container">
-                <h1 class="search_greeting">
-                    <div class="search_greeting_logo_container">
-                        <img src="images/amprologo.png" class="img-responsive">
-                    </div>
-                    How can we help you?
-                </h1>
-                <form class="search_bar" role="search">
-                    <input type="text" class="search_bar_input" placeholder="Describe Your Issue?">
-                    <button class="search_button">
-                        <img src="images/search.svg" class="search_button_img">
-                    </button>
-
-                </form>
-            </div>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Ambill</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
         </div>
-        <div class="relative">
-            <div class="primary-container">
-                <div class="page_width_container">
-                    <div class="main-content">
-                        <article class="page">
-                            <div class="portal">
-                                <section style="text-align: center;">
-                                    <ul class="tabs_list">
-                                        <li><a href="faq.html">
-                                                <img src="images/chrome_64dp.png">
-                                                <h3>Google Chrome</h3>
-                                            </a></li>
-                                        <li><a href="faq.html">
-                                                <img src="images/chrome_64dp.png">
-                                                <h3>Google Chrome</h3>
-                                            </a></li>
-                                        <li><a href="faq.html">
-                                                <img src="images/chrome_64dp.png">
-                                                <h3>Google Chrome</h3>
-                                            </a></li>
-                                        <li><a href="faq.html">
-                                                <img src="images/chrome_64dp.png">
-                                                <h3>Google Chrome</h3>
-                                            </a></li>
-                                        <li><a href="faq.html">
-                                                <img src="images/chrome_64dp.png">
-                                                <h3>Google Chrome</h3>
-                                            </a></li>
-                                    </ul>
-                                </section>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <!-- Your content goes here -->
+                <div class="container">
+                    <div class="search-container">
+                        <h1 class="search_greeting">
+                            <div class="search_greeting_logo_container">
+                                <img src="images/amprologo.png" class="img-responsive">
                             </div>
-                        </article>
+                            How can we help you?
+                        </h1>
+                        <form class="search_bar" role="search">
+                            <input type="text" class="search_bar_input" placeholder="Describe Your Issue?">
+                            <button class="search_button">
+                                <img src="images/search.svg" class="search_button_img">
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="primary-container">
+                        <div class="page_width_container">
+                            <div class="main-content">
+                                <article class="page">
+                                    <div class="portal">
+                                        <section style="text-align: center;">
+                                            <ul class="tabs_list">
+                                                <li><a href="faq.html">
+                                                        <img src="images/chrome_64dp.png">
+                                                        <h3>Google Chrome</h3>
+                                                    </a></li>
+                                                <li><a href="faq.html">
+                                                        <img src="images/chrome_64dp.png">
+                                                        <h3>Google Chrome</h3>
+                                                    </a></li>
+                                                <li><a href="faq.html">
+                                                        <img src="images/chrome_64dp.png">
+                                                        <h3>Google Chrome</h3>
+                                                    </a></li>
+                                                <li><a href="faq.html">
+                                                        <img src="images/chrome_64dp.png">
+                                                        <h3>Google Chrome</h3>
+                                                    </a></li>
+                                                <li><a href="faq.html">
+                                                        <img src="images/chrome_64dp.png">
+                                                        <h3>Google Chrome</h3>
+                                                    </a></li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"
-            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-        <script src="app.js"></script>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
