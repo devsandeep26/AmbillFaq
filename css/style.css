@@ -16,6 +16,14 @@ body {
 /* TODO: Hover and Focus state.
  *       Fix position of mobile search button.
  */
+.box-shadow .shaded {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.box-shadow {
+    box-shadow: none;
+}
+
 .mdh-expandable-search {
     margin: 0 50px;
     align-items: center;
@@ -295,6 +303,38 @@ body {
     margin-top: .25rem;
     padding: 1.25rem 1rem;
     border-radius: .5rem;
+}
+
+.sub-article-container {
+    border-top: .0625rem solid #dadce0;
+    margin: 2.25rem 0 -1.5rem;
+    clear: both;
+}
+
+.as .title {
+    color: #202124;
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: 500;
+    padding: 1.125rem 0;
+}
+
+.as .as-button {
+    background-color: #ffffff;
+    border: .0625rem solid #dadce0;
+    border-radius: .25rem;
+    color: #1a73e8;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin: .375rem .5rem .375rem 0;
+    min-width: 5.5rem;
+    padding: .625rem 0;
+    position: relative;
+    text-align: center;
 }
 
 .page_border {
@@ -597,6 +637,25 @@ a.tabbar-helpcenter-sections__link {
     .article-container {
         min-width: 14.5rem;
         padding: 0;
+    }
+
+    .sub-article-container {
+        margin: 4.25rem -4rem -4rem;
+    }
+
+    .as {
+        margin-bottom: -2rem;
+        padding: .5rem 4rem 2rem;
+        text-align: left;
+    }
+
+    .as .title {
+        font-size: 1rem;
+        margin-right: 1.5rem;
+    }
+
+    .as .btn-group {
+        display: inline;
     }
 
     .sibling-nav {

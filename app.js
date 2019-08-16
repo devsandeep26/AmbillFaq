@@ -7,7 +7,7 @@ $(document).ready(function () {
                 .slideUp(200);
             $(".set > a i")
                 .addClass("fa-angle-up");
-                $(".set > a i")
+            $(".set > a i")
                 .removeClass('fa-angle-up')
                 .addClass('fa-angle-down')
         } else {
@@ -75,5 +75,19 @@ $(document).ready(function () {
             $('.mdh-expandable-search').addClass('mdl-cell--hide-phone').css('margin', '0 50px');
         }
 
+    });
+});
+$(document).ready(function () {
+    let $nav = $('.box-shadow');
+    $(function () {
+        $(window).scroll(function () {
+            var $scroll = $(this).scrollTop()
+            // set distance user needs to scroll before we start fadeIn
+            if ($scroll > 190) { //For dynamic effect use $nav.height() instead of '100'
+                $nav.addClass('shaded').slideDown('slow');
+            } else {
+                $nav.removeClass('shaded');
+            }
+        });
     });
 });
